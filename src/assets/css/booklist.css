@@ -1,0 +1,88 @@
+/* css for book list page */
+.custom-card {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 10%);
+    cursor: pointer;
+    height: 100%;
+}
+.custom-card:hover{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+
+.img-width{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.btn-pink{
+    background-color: #FF4775;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 16px;
+}
+.btn-pink:hover{
+    border: 1px solid #FF4775;
+    color: #FF4775;
+}
+.addBtn{
+    border: 1px solid #FF4775;
+    background-color: #FF4775;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 8px;
+}
+.addBtn:hover{
+    background-color: #FF4775;
+    color: #ffffff;
+}
+
+.card-title{
+    font-size: 1rem; 
+    font-weight: 600; 
+    margin-top: 8px;
+    white-space: nowrap;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+}
+.card-subtitle{
+    font-size: 0.9rem; 
+    font-weight: 400;
+    white-space: nowrap;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+}
+
+
+/* css for book details page */
+.book-details{padding: 0px 36px;}
+.book-details h5{margin-top: 30px;}
+
+
+/* css for shopping cart page */
+.cartImg{width: 30px;}
+.cart-text{font-weight: 500;}
+
+.remove-btn{
+    padding: 0;
+    color: #FF4775;
+    width: 15%;
+    text-align: left;
+}
+.plus-minus-btn{margin-left: 30px;}
+.minus-btn, .plus-btn{
+    border: 1px solid #FF4775;
+    color: #FF4775;
+    margin-right: 16px;
+    padding: 0px 14px 4px 14px;
+}
+.minus-btn:hover, .plus-btn:hover {
+    background-color: #FF4775;
+    color: #ffffff;
+}

@@ -1,0 +1,28 @@
+/* css for navbar */
+Nav{border-bottom: 1px solid rgb(232, 232, 232);}
+.logo{color: #FF4775; font-weight: 600;}
+.headings{padding-bottom: 1.5rem}
+a{color: #000; text-decoration: none;}
+
+.mr-30{margin-right: 30px;}
+
+/* css for logout button */
+.logout-btn{
+    background-color: #ffffff;
+    color: #FF4775;
+    border: 1px solid #FF4775;
+    border-radius: 0.375rem;
+}
+.logout-btn:hover{background-color: #FF4775; color: #ffffff;}
+
+
+/* css for search bar */
+.search-btn{
+    background-color: #FF4775;
+    color: #ffffff;
+    padding: 0px 30px 5px 30px;
+}
+.search-btn:hover{
+    border: 1px solid #FF4775;
+    color: #FF4775;
+}
