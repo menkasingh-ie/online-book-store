@@ -40,6 +40,8 @@ const NavBar = ({ onSearch, setLoggedIn }) => {
     );
 };
 
+
+
 export default NavBar;
 
 
